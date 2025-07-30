@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RSVP</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            min-height: 100vh;
+            margin: 0;
+            padding: 0;
+            background: url('plain.jpg') center center repeat;
+            background-size: cover;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .invite-card {
+            background: url('card.jpg') center center/cover no-repeat, rgba(255,255,255,0.92);
+            box-shadow: 0 8px 32px rgba(0,0,0,0.18);
+            padding: 48px 32px;
+            max-width: 400px;
+            width: 90%;
+            text-align: center;
+            backdrop-filter: blur(2px);
+        }
+        .invite-card .main-title {
+            font-family: 'Whisper', cursive;
+            color: #000000;
+            font-size: 1.5rem;
+            margin-top: 10px;
+            margin-bottom: 0;
+            letter-spacing: 1px;
+        }
+        .invite-card .subtitle {
+            font-family: 'Montserrat', sans-serif;
+            color: #000000;
+            font-size: 0.9rem;
+            margin-bottom: 10px;
+            font-weight: 400;
+            letter-spacing: 0.5px;
+        }
+        .invite-card .button {
+            background: #6d8db4;
+            color: #fff;
+            border: none;
+            padding: 10px 28px;
+            font-size: 1rem;
+            cursor: pointer;
+            text-decoration: none;
+            transition: background 0.2s;
+            display: inline-block;
+            margin-top: 10px;
+        }
+        .invite-card .button:hover {
+            background: #4e6b8a;
+        }
+        .rsvp-form {
+            margin-top: 24px;
+            text-align: left;
+            font-family: 'Montserrat', sans-serif;
+        }
+        .rsvp-form label {
+            display: block;
+            margin-bottom: 6px;
+            font-weight: 500;
+        }
+        .rsvp-form input, .rsvp-form select, .rsvp-form textarea {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 14px;
+            border: 1px solid #b7c9e2;
+            border-radius: 4px;
+            font-size: 1rem;
+            font-family: inherit;
+        }
+        .rsvp-form button {
+            background: #6d8db4;
+            color: #fff;
+            border: none;
+            padding: 10px 28px;
+            font-size: 1rem;
+            border-radius: 6px;
+            cursor: pointer;
+            transition: background 0.2s;
+        }
+        .rsvp-form button:hover {
+            background: #4e6b8a;
+        }
+        .success-message {
+            color: #4e6b8a;
+            font-weight: 600;
+            margin-top: 18px;
+            text-align: center;
+        }
+    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Whisper&family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="invite-card">
+        <div style="padding-top: 50px;">
+            <!-- <div class="main-title">Money Gift Options</div> -->
+            <div class="subtitle">If you'd like to bless us with a monetary gift, here are our details:</div>
+            <div style="margin-top: 28px; text-align:left;">
+                <div style="margin-bottom: 18px;">
+                    <strong>Julie Ann Cerezo</strong><br>
+                    <span style="color:#6d8db4;">Maya wallet</span><br>
+                    <span style="font-size:1.1rem;letter-spacing:1px;">09991157727</span><br>
+                    <span style="color:#6d8db4;">Gcash</span><br>
+                    <span style="font-size:1.1rem;letter-spacing:1px;">09991157727</span>
+                </div>
+                <div style="margin-bottom: 18px;">
+                    <strong>Marlon Junio</strong><br>
+                    <span style="color:#6d8db4;">BDO</span><br>
+                    <span style="font-size:1.1rem;letter-spacing:1px;">0089 7021 7148</span>
+                </div>
+            </div>
+            <div style="margin-top: 30px; text-align:center;">
+                <a class="button" href="index.html">Back to Invitation</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
