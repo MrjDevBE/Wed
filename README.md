@@ -3,7 +3,7 @@
 A personalized, custom-built wedding invitation web application.
 
 ## 💍 Project Philosophy
-This project was built from scratch to provide a unique, highly tailored wedding experience without the costs or limitations of third-party wedding website builders. By owning the full codebase, we maintain complete control over our wedding data, design, and functionality.
+This project was built from scratch to provide a unique, highly tailored wedding experience without the costs or limitations of third-party wedding website builders. By owning the full codebase, I maintain complete control over our wedding data, design, and functionality.
 
 ## 🛠 Tech Stack
 * **Core**: HTML5, CSS3, and Vanilla JavaScript (No heavy frameworks or dependencies).
