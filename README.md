@@ -21,3 +21,14 @@ This project was built from scratch to provide a unique, highly tailored wedding
 ├── recommendations.html # Accommodations with auto-sliding carousel
 ├── DressCode.html      # Visual guide for wedding attire
 └── Registry.html       # Gift and support registry details
+```
+
+## Contact
+Feel free to reach out to me through my social channels:
+*   [LinkedIn](https://www.linkedin.com/in/marlon-junio-4b4a69164/)
+*   [GitHub](https://github.com/MrjDevBE)
+*   [Instagram](https://www.instagram.com/papy.moja/)
+*   [Email](dev.mrjunio@gmail.com)
+*   Happy to help!
+
+Please use this link to visit the actual project : https://mrjdevbe.github.io/Wed/
